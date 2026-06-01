@@ -8,7 +8,10 @@
 #include <SPI.h>
 #include <ArduinoJson.h>
 
-#define SD_CS    12
+// Pinout SD del M5Stack Cardputer ADV
+// Fuente: docs.m5stack.com/en/core/Cardputer-Adv
+//   CS=GPIO5, MOSI=GPIO14, MISO=GPIO39, CLK=GPIO40
+#define SD_CS    5
 #define SD_MOSI  14
 #define SD_MISO  39
 #define SD_SCK   40
